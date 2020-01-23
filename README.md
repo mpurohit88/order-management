@@ -34,4 +34,7 @@ Current Project uses a number of open source projects to work properly:
 ### 1 Level
 ![Test Image 3](/Level1.png)
 
+### System Diagram
+![Test Image 3](/SystemDiagram.png)
+
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
