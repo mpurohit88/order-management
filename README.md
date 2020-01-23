@@ -32,6 +32,6 @@ Current Project uses a number of open source projects to work properly:
 ![Test Image 3](/level0.png)
 
 ### 1 Level
-![Test Image 3](/level1.png)
+![Test Image 3](/Level1.png)
 
    [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
