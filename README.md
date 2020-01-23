@@ -1,7 +1,8 @@
-# Software Tooll Specification
+# Software Tool Specification
 
   - Node js
   - MySql
+  - Scheduler
 
 # Software Requirement
 
