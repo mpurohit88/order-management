@@ -1,6 +1,6 @@
 const Order = require("../models/order.js")
 
-const getListOfOrder = async function (req, res, next) {
+const getListOfOrder = async function () {
 	try {
 		const listOfOrder = await new Order({}).getListOfOrder();
 		
@@ -10,4 +10,15 @@ const getListOfOrder = async function (req, res, next) {
 	}
 };
 
-module.exports = { getListOfOrder: getListOfOrder};
+const updateStatus = async function (data) {
+	try {
+		await new Order(data).updateStatus();
+        const listOfOrder = await new Order({}).getListOfOrder();
+
+		return listOfOrder;
+	}catch (err) {
+		console.log(err);
+	}
+};
+
+module.exports = { getListOfOrder: getListOfOrder, updateStatus: updateStatus};
