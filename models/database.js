@@ -3,9 +3,9 @@ let dbOptions = '';
 
   dbOptions = {
     host: 'remotemysql.com',
-    user: '86pedRBP62',
-    password: 'WO7qOr9si3',
-    database: '86pedRBP62',
+    user: '',
+    password: '',
+    database: ',
     port: 3306
   };
 
